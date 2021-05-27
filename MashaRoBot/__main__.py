@@ -352,17 +352,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" I'm *кαкαѕнι нαтαкє*, a powerful group management bot built to help you manage your group easily.!! """
-
-                 I can restrict users.
-                 I can greet users with customizable welcome messages and even set a group's rules.
-                 I have an advanced anti-flood system.
-                 I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 I check for admins' permissions before executing any command and more stuffs
-                 \n_Emcee's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://www.github.com/JassManak1125/emcee)
-                 If you have any question about кαкαѕнι нαтαкє, let us know at @Its_JassManak."",
+            text=""" I'm *кαкαѕнι нαтαкє*, a powerful group management bot built to help you manage your group easily.!!\n\nI can restrict users.\nI can greet users with customizable welcome messages and even set a group's rules.\nI have an advanced anti-flood system.\nI can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.\nI have a note keeping system, blacklists, and even predetermined replies on certain keywords.\nI check for admins' permissions before executing any command and more stuffs\n\n_Emcee's licensed under the GNU General Public License v3.0_\n\n\nHere is the [💾Repository](https://www.github.com/JassManak1125/emcee)\nIf you have any question about кαкαѕнι нαтαкє, let us know at @Its_JassManak.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
