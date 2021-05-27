@@ -354,7 +354,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
         query.message.edit_text(
             text=""" I'm *кαкαѕнι нαтαкє*, a powerful group management bot built to help you manage your group easily.!! """
 
-            ❍ I can restrict users.lp you manage your group eas
+                 ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
