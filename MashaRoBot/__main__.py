@@ -352,7 +352,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *кαкαѕнι нαтαкє*, a powerful group management bot built to help you manage your group easily.
+            text=""" I'm *кαкαѕнι нαтαкє*, a powerful group management bot built to help you manage your group easily.!! ""
 
             ❍ I can restrict users.lp you manage your group eas
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
@@ -388,7 +388,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *кαкαѕнι нαтαкє*, a powerful group management bot built to help you manage your group easily.
+            text=""" I'm *кαкαѕнι нαтαкє*, a powerful group management bot built to help you manage your group easily.!! ""
 
                  \nHere is the [Source Code](https://GitHub.com/JassManak1125/emcee) ."",
             parse_mode=ParseMode.MARKDOWN,
